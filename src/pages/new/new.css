@@ -1,0 +1,98 @@
+.new{
+    width: 100%;
+    display: flex;
+}
+
+.containerNew{
+    flex: 6;
+}
+
+.topNew, .bottomNew{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px 5px 40px 10px;
+    margin: 30px;
+    display: flex;
+}
+
+.new h1{
+    color: #6439ff;
+    font-size: 20px;
+}
+
+.leftNew{
+    flex: 1;
+    text-align: center;
+}  
+
+.new img{
+    width: 130px;
+    height: 100px;
+}
+
+.rightNew{
+    flex: 2;
+}
+
+.new form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.new form .formInput{
+    width: 40%;
+}
+
+.new label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.new label .fileNew{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.new form .formInput input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.new form .formDocument input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+}
+
+.boton{
+    padding-left: 30%;
+}
+
+.new button{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover{
+        background-color: rgb(9, 88, 88);
+    }
+}
+
+/*
+#archivoInput{
+    padding-top: 10px;
+}
+*/

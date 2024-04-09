@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    background-color: #dad4d4;
+    /*background: linear-gradient(45deg, #570168, #000052);*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login h1{
+    color: #420b6e;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.login .container{
+    padding: 50px 20px;
+    height: 300px;
+    display: flex;
+    border-radius: 2%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.login form input{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    text-indent: 20px;
+
+    &::placeholder{
+        font-size: 14px;
+        
+    }
+}
+
+.login button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: #420b6e;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+button:active {
+    background-color:#310753;
+  }
+
+.login span{
+    margin-top: 20px;  
+    margin-left: 100px;
+    color: rgb(80, 77, 77); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
+.login p{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Estilo para el contenedor de la alerta flotante */
+.floating-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Estilo para el botón de cerrar */
+  .floating-alert button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Estilo para el texto de la alerta */
+  .floating-alert span {
+    color: #333333;
+  }
+  

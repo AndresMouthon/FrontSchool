@@ -1,0 +1,67 @@
+.delete{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.087);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.delete .windows{
+    background-color: white;
+    padding: 70px  120px;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.delete button.primary {
+    background-color: #d60b0b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size:large ;
+}
+
+.delete .cerrarX{
+    display: flex;
+    padding: 10px 13px;
+    border-radius: 8px;
+    color: black;
+    font-weight: 800;
+    translate: 230px -50px;
+
+}
+
+.modal-content {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.modal-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+.modal-button button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  
+.modal-button button.secondary {
+  background-color: #dc3545;
+  color: white;
+}

@@ -1,0 +1,8 @@
+.followup{
+    display: flex;
+    width: 100%;
+}
+
+.containerFollowup{
+    flex: 6;
+}

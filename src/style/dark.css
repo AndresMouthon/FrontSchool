@@ -1,0 +1,52 @@
+.dark{
+    background-color: #222;
+    color: rgb(156, 156, 156);
+
+
+    .chartGrid{
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+
+    .contenedor{
+        background-color: rgb(49, 48, 48);
+    }
+
+    .table{
+        background-color: #111;
+        color: gray;
+    }
+
+    .navbar{
+        background-color: #111;
+        color: #999;
+        border-color: #333;
+    }
+    
+    .sidebar{
+        background-color: #111;
+        border-color: #333;
+    }
+
+    .sidebar .top .logo{
+        color: #999;
+    }
+    .sidebar hr {
+        border-color: #333;
+    }
+
+    .sidebar ul li{ 
+        &:hover{
+        background-color: #333;
+        }
+    }
+
+    .sidebar ul li .icon{
+        color: #999999;
+    }
+
+    .datatable .datagrid{
+        color: rgb(231, 231, 231);
+        border: none;
+    }
+
+}

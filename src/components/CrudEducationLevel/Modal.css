@@ -1,0 +1,113 @@
+.modal-background {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-background .modal-container {
+  border-radius: 10px;
+  background-color: white;
+  width: 500px;
+  height: 250px;
+  margin-top: -100%;
+  animation: aparecer .5s forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes aparecer {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+
+.modal-background .modal-container header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.modal-background .modal-container header h1 {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: fixed;
+}
+.modal-background .modal-container header .incon-close {
+  color: red;
+  width: 2rem;
+  cursor: pointer;
+  margin-left: 470px;
+  margin-top: -15px;
+}
+.modal-background .modal-container .inputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.modal-background .modal-container .icons {
+  border: none;
+  margin: 0 10px 0 0;
+  margin-top: -2px;
+  height: 35px;
+}
+.modal-background .modal-container .inputs input {
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 0 0 20px 0;
+  width: 70%;
+  height: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.modal-background .modal-container .inputs input:focus {
+  outline: none;
+}
+.modal-background .modal-container .btn-actualizar {
+  font-family: 'Cascadia Code',Consolas, 'Courier New', monospace;
+  background: #0000FF;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: .3s;
+  cursor: pointer;
+}
+.modal-background .modal-container .btn-actualizar:hover {
+  background: white;
+  color: #0000FF;
+  border: 1px solid #0000FF;
+}
+.modal-background .modal-container .btn-registrar {
+  font-family: 'Cascadia Code',Consolas, 'Courier New', monospace;
+  background: green;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: .3s;
+  cursor: pointer;
+}
+.modal-background .modal-container .btn-registrar:hover {
+  background: white;
+  color: green;
+  border: 1px solid green;
+}

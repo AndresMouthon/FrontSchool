@@ -1,0 +1,8 @@
+.listEducationLevel{
+    display: flex;
+    width: 100%;
+}
+
+.container-educationLevel{
+    flex: 6;
+}

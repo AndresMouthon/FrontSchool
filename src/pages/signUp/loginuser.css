@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signup{
+    background-color: #dad4d4;
+    /*background: linear-gradient(45deg, #570168, #000052);*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup h1{
+    color: #420b6e;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup .container{
+    padding: 40px 20px 150px;
+    height: 300px;
+    display: flex;
+    border-radius: 2%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.signup form input{
+    padding: 8px;
+    width: 300px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    text-indent: 20px;
+
+    &::placeholder{
+        font-size: 14px;
+        
+    }
+}
+
+.signup button{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: #420b6e;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:active {
+    background-color:#310753;
+  }
+
+.signup span{
+    margin-top: 20px;  
+    margin-left: 100px;
+    color: rgb(80, 77, 77); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.textRestriccion{
+    color: black;
+    font-size: x-small;
+}
+
+.signup .cargando{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+
+/* Estilo para el contenedor de la alerta flotante */
+.floating-alert2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Estilo para el botón de cerrar */
+  .floating-alert2 button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Estilo para el texto de la alerta */
+  .floating-alert2 span {
+    color: #333333;
+}
