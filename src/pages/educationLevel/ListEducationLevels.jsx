@@ -3,8 +3,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import "./EducationLevels.css";
 import Navbar from "../../components/navbar/Navbar";
 import { useAuthNivelEducativo } from "../../hooks/useAuthNivelEducativo";
-import { ModalLevels } from "../../components/CrudeducationLevel/ModalLevels";
-import { DataTableLevels } from "../../components/CrudeducationLevel/DataTableLevels";
+import { ModalLevels } from "../../components/crudEducationLevel/ModalLevels";
+import { DataTableLevels } from "../../components/crudEducationLevel/DataTableLevels";
 
 export function ListEducationLevels() {
   const {
