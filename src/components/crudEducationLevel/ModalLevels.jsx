@@ -29,7 +29,7 @@ export function ModalLevels({
           <hr style={{ width: "90%" }} />
           <br />
           <main className="inputs">
-            <MenuBookIcon className="icons" />
+            <MenuBookIcon className="icons" style={{color:"#612E01"}}/>
             <input 
               type="text" 
               placeholder="Nivel educativo..." 
@@ -39,7 +39,7 @@ export function ModalLevels({
             />
           </main>
           <main className="inputs">
-            <ReorderIcon className="icons" />
+            <ReorderIcon className="icons" style={{color:"#612E01"}}/>
             <input 
               type="text" 
               placeholder="Codigo..." 

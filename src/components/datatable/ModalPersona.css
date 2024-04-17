@@ -1,0 +1,245 @@
+.modal-backgroun {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-backgroun .modal-container {
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 550px;
+    margin-top: -100%;
+    animation: aparecer .5s forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes aparecer {
+    from {
+      margin-top: -100%;
+    }
+    to {
+      margin-top: 0;
+    }
+  }
+  
+  .modal-backgroun .modal-container header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .modal-backgroun .modal-container header h1 {
+    margin-top: 8px;
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: fixed;
+  }
+  .modal-backgroun .modal-container header .incon-close {
+    color: red;
+    width: 2rem;
+    cursor: pointer;
+    margin-left: 570px;
+  }
+  .modal-backgroun .modal-container .inputs-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .modal-backgroun .modal-container .inputs-container section .inputs {
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+  }
+  .modal-backgroun .modal-container .inputs-container section .icons {
+    border: none;
+    margin: 0 10px 0 0;
+    margin-top: -2px;
+    height: 35px;
+  }
+  .modal-backgroun .modal-container .inputs input {
+    font-size: 15px;
+    border: none;
+    text-indent: 10px;
+    margin: 0 0 20px 0;
+    color: gray;
+    width: 100%;
+    height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .modal-backgroun .modal-container .inputs select {
+    color: gray;
+    font-size: 15px;
+    border: none;
+    text-indent: 1px;
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .modal-backgroun .modal-container .inputs input:focus {
+    outline: none;
+  }
+  .modal-backgroun .modal-container .inputs select:focus {
+    outline: none;
+  }
+
+  .modal-backgroun .modal-container .btn-registrar {
+    font-family: 'Cascadia Code',Consolas, 'Courier New', monospace;
+    background: green;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: .3s;
+    cursor: pointer;
+    margin-top: -30px;
+  }
+  .modal-backgroun .modal-container .btn-registrar:hover {
+    background: white;
+    color: green;
+    border: 1px solid green;
+  }
+
+
+/* Modal acualizar */
+/* -------------------------------------------------------------------------------------------------- */
+
+.modal-backgroun {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-backgroun .modal-container2 {
+  border-radius: 10px;
+  background-color: white;
+  width: 600px;
+  height: 370px;
+  margin-top: -100%;
+  animation: aparecer .5s forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes aparecer {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+
+.modal-backgroun .modal-container2 header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.modal-backgroun .modal-container2 header h1 {
+  margin-top: 8px;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: fixed;
+}
+.modal-backgroun .modal-container2 header .incon-close {
+  color: red;
+  width: 2rem;
+  cursor: pointer;
+  margin-left: 570px;
+}
+.modal-backgroun .modal-container2 .inputs-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.modal-backgroun .modal-container2 .inputs-container section .inputs {
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 10px 0;
+}
+.modal-backgroun .modal-container2 .inputs-container section .icons {
+  border: none;
+  margin: 0 10px 0 0;
+  margin-top: -2px;
+  height: 35px;
+}
+.modal-backgroun .modal-container2 .inputs input {
+  font-size: 15px;
+  border: none;
+  text-indent: 10px;
+  margin: 0 0 20px 0;
+  color: gray;
+  width: 100%;
+  height: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.modal-backgroun .modal-container2 .inputs select {
+  color: gray;
+  font-size: 15px;
+  border: none;
+  text-indent: 1px;
+  margin: 0 0 20px 0;
+  width: 100%;
+  height: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.modal-backgroun .modal-container2 .inputs input:focus {
+  outline: none;
+}
+.modal-backgroun .modal-container2 .inputs select:focus {
+  outline: none;
+}
+.modal-backgroun .modal-container2 .btn-actualizar {
+  font-family: 'Cascadia Code',Consolas, 'Courier New', monospace;
+  background: #0000FF;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: .3s;
+  cursor: pointer;
+}
+.modal-backgroun .modal-container2 .btn-actualizar:hover {
+  background: white;
+  color: #0000FF;
+  border: 1px solid #0000FF;
+}

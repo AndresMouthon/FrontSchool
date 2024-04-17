@@ -3,7 +3,7 @@ import "./DataTableLevels.css";
 import DataTable from "react-data-table-component";
 import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
-import BookmarkAddIcon from '@mui/icons-material/BookmarkAdd';
+import BookmarkAddIcon from "@mui/icons-material/BookmarkAdd";
 
 export function DataTableLevels({
   capturarInformacion,
@@ -51,9 +51,16 @@ export function DataTableLevels({
   return (
     <div className="container_levels">
       <header>
-        <button onClick={toggleModal}>
-          <BookmarkAddIcon className="icon-registrar"/>
-          Registrar
+        <button
+          onClick={toggleModal}
+          style={{
+            width: "17rem",
+            textTransform: "uppercase",
+            fontWeight: "bold",
+          }}
+        >
+          <BookmarkAddIcon className="icon-registrar" />
+          Registrar nivel educativo
         </button>
       </header>
       <section>

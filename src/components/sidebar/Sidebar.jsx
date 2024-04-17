@@ -15,6 +15,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from 'react-router-dom';
 import Logout from "../logout/Logout";
 import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
+import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 
 import { List, ListItem, ListItemText, Collapse } from '@mui/material';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
@@ -65,11 +66,11 @@ const Sidebar = () => {
                         <span>Home</span>
                     </li>
                 </Link>
-                <p className="title">ESTUDIANTES</p>
+                <p className="title">USUARIOS</p>
                 <Link to="/users" style={{textDecoration: "none"}}>
                     <li>
-                        <PersonAddIcon className="icon"/>
-                        <span>Nuevo Registro</span>
+                        <PeopleAltIcon className="icon"/>
+                        <span>Gestionar</span>
                     </li>
                 </Link>
                 <p className="title">NIVELES EDUCATIVOS</p>
